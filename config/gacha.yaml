@@ -1,0 +1,11 @@
+# 卡池参数（示例量级，仅用于练习，非任何公司真实配置）
+version: 1
+
+banner:
+  name: 限定角色池
+  rate5: 0.006          # 五星基础概率
+  rate4: 0.051          # 四星基础概率
+  hard_pity: 90         # 第 90 抽必出五星
+  soft_pity_start: 74   # 第 74 抽起五星概率开始提升
+  soft_pity_step: 0.06  # 每抽递增
+  ten_pull_guarantee4: true   # 十连至少出一个四星

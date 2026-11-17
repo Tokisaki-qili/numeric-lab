@@ -1,0 +1,23 @@
+# 成长曲线参数（示例量级）
+version: 1
+
+exp:
+  formula: power        # round(base * level ^ exponent)
+  base: 50
+  exponent: 1.6
+  max_level: 90
+
+# 属性按线性成长，战力 = Σ attr × weight
+combat_power:
+  weights:
+    atk: 1.0
+    def: 0.6
+    hp: 0.08
+  attrs_at_level_1:
+    atk: 20
+    def: 15
+    hp: 600
+  attrs_per_level:
+    atk: 3
+    def: 2
+    hp: 90

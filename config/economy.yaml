@@ -1,0 +1,18 @@
+# 经济循环参数（示例，单位：金币 / 经验 / 体力）
+version: 1
+
+daily:
+  stamina: 240            # 每日体力
+  stamina_per_run: 20     # 每次副本消耗
+  exp_per_run: 300        # 每次副本获得经验
+  gold_per_run: 1500      # 每次副本获得金币
+  daily_quest_gold: 3000  # 每日任务金币
+  daily_quest_exp: 800    # 每日任务经验
+
+costs:
+  gacha_cost_per_pull: 160      # 每抽消耗
+  level_up_gold_per_level: 500  # 升级金币（示例）
+
+player:
+  start_gold: 20000
+  team_size: 4

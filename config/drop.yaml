@@ -1,0 +1,18 @@
+# 掉落权重表（示例）
+version: 1
+
+tables:
+  elite_box:
+    desc: 精英怪掉落箱
+    items:
+      - {name: 金币袋,   rarity: 1, weight: 60}
+      - {name: 经验书,   rarity: 2, weight: 25}
+      - {name: 突破材料, rarity: 3, weight: 12}
+      - {name: 五星碎片, rarity: 5, weight: 3}
+
+  boss_reward:
+    desc: Boss 结算奖励
+    items:
+      - {name: 保底材料, rarity: 3, weight: 80}
+      - {name: 稀有材料, rarity: 4, weight: 18}
+      - {name: 传说部件, rarity: 5, weight: 2}
